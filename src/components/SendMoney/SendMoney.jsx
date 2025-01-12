@@ -14,7 +14,7 @@ const SendMoney = () => {
       <div className="row balance">
         <div>
             <h1>$560,000,000</h1>
-            <p><span className="success">+2.03%</span>($10,000,137)</p>
+            <p><span className="success">+2.03% </span>($10,000,000)</p>
         </div>
         <button className="add-fund-btn">
             <img src={mastercard} className='icon' alt="" />

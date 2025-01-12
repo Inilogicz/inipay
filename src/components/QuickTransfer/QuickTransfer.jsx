@@ -1,4 +1,5 @@
 import React from 'react';
+import "./QuickTransfer.css"
 import ngflag from '../../assets/ng-flag.svg';
 import usflag from '../../assets/us-flag.png';
 import { HandCoins, ScrollText, Send,Group } from 'lucide-react';

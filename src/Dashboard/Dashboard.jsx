@@ -6,6 +6,7 @@ import { useState } from 'react';
 import SendMoney from '../components/SendMoney/SendMoney';
 import VisaCard from '../components/VisaCard/VisaCard';
 import QuickTransfer from '../components/QuickTransfer/QuickTransfer';
+import Cashflow from '../components/CashFlow/Cashflow';
 const Dashboard = () => {
   const [open, setOpen] = useState(false);
   return (
@@ -18,9 +19,10 @@ const Dashboard = () => {
           <VisaCard/>
           <SendMoney/>
           <QuickTransfer/>
+          
         </div>
         <div className="column">
-
+        <Cashflow/>
         </div>
       </section>
 

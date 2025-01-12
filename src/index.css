@@ -127,6 +127,7 @@ input::placeholder{
   max-width: 2rem;
   max-height: 2rem;
   display: flex;
+  border-radius: 100%;
   align-items: center;
   justify-content: center;
   background: var(--ui-seondary);
