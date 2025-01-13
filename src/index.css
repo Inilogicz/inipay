@@ -12,7 +12,7 @@
   --color-white:#ffffff;
   --color-dark:#222222;
   --color-success:#33c648;
-  --color-success-rgb: 51, 198, 72;
+   --color-success-rgb: 51, 198, 72;
   --color-danger:#fc605b;
   --color-danger-rgb:252, 96, 91;
   --color-warning: #ffbb55;
@@ -47,9 +47,8 @@ html, body{
   font-family: "Roboto", sans-serif;
   background: var(--ui-base);
   overflow: hidden;
-  overflow-y: hidden;
+  overflow-y: auto;
   color: var(--text-color);
-  padding: 10px;
 }
 a{
   color: var(--text-color);

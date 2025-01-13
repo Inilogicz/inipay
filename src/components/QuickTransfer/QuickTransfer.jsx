@@ -18,7 +18,7 @@ const QuickTransfer = () => {
              <p className="muted">Enter Amount</p>
             <div className="row">
                 <p className="currency">$</p>
-                <input type="text" placeholder='0.00' />
+                <input type="text" className='currency' placeholder='0.00' />
                 <div className="row">
                         <div className="profile">
                             <img src={ngflag} alt="" />
