@@ -45,6 +45,6 @@
 
 @media only screen and (max-width:600px){
     .transactions table .minimize{
-        display: inline-block;
+        display: none;
     }
 }
