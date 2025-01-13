@@ -7,6 +7,8 @@ import SendMoney from '../components/SendMoney/SendMoney';
 import VisaCard from '../components/VisaCard/VisaCard';
 import QuickTransfer from '../components/QuickTransfer/QuickTransfer';
 import Cashflow from '../components/CashFlow/Cashflow';
+import StatisticGrid from '../components/StatisticGrid/StatisticGrid';
+import Transactions from '../components/Transactions/Transactions';
 const Dashboard = () => {
   const [open, setOpen] = useState(false);
   return (
@@ -23,6 +25,8 @@ const Dashboard = () => {
         </div>
         <div className="column">
         <Cashflow/>
+        <StatisticGrid/>
+        <Transactions/>
         </div>
       </section>
 

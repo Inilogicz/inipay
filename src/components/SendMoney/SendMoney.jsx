@@ -30,7 +30,8 @@ const SendMoney = () => {
             </div>
             <div className="row price-input">
                 <div className="currency">$</div>
-                <input type="text" placeholder='0.00' />
+                {/* currency */}
+                <input type="text" className='currency' placeholder='0.00' />
                 <div className="row">
                     <div className="profile">
                         <img src={ngflag} alt="" />

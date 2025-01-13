@@ -83,8 +83,8 @@ const Cashflow = () => {
                 <div className="rounded-icon-btn">
                     <TrendingUp className='icon'/>
                 </div>
-                <div className="rounded-icon-btn">
-                    <ChartColumnStacked className='icon'/>
+                <div className="rounded-icon-btn btn-primary">
+                    <ChartColumnStacked className='icon '/>
                 </div>
             </div>
         </div>
